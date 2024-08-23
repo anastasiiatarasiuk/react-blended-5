@@ -1,3 +1,4 @@
+import { useSelector } from 'react-redux';
 import {
   Container,
   Heading,
@@ -6,7 +7,6 @@ import {
   ExchangeInfo,
   Loader,
 } from 'components';
-import { useSelector } from 'react-redux';
 import {
   selectExchangeCurrency,
   selectIsError,

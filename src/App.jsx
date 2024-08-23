@@ -1,7 +1,7 @@
-import { Header } from 'components';
 import { lazy, Suspense, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Navigate, Route, Routes } from 'react-router-dom';
+import { Header } from 'components';
 import { fetchBaseCurrency } from 'reduxState/currencyOperations';
 import { setBaseCurrency } from 'reduxState/currencySlice';
 
